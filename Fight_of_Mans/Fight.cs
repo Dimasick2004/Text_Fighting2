@@ -11,47 +11,55 @@ using System.Media;
 
 namespace Fight_of_Mans
 {
+
     public partial class Fight : Form
     {
-        SoundPlayer sf = new SoundPlayer(@"C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\Resources\Yuka Kitamura – Main Menu [DARK SOULS III].wav");
-        static int hp1 = 100; bool ttt= false;
-        static int hp2 = 100;
+       // SoundPlayer sf = new SoundPlayer(@"C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\Resources\Yuka Kitamura – Main Menu [DARK SOULS III].wav");
+        int hp1 = 100;
+        bool ttt= false;
+        int hp2 = 100;
         int num_1;
         int num_2;
         int num_3;
         int num_4;
         int result = 100;
         int result1 = 100;
+        public void ShowButton(bool ttt) {
+
+            if (ttt == false)
+            {
+                button1.Show();
+                button2.Show();
+                button7.Show();
+                button8.Show();
+                button3.Hide();
+                button4.Hide();
+                button5.Hide();
+                button6.Hide();
+
+            }
+            else
+            {
+                button1.Hide();
+                button2.Hide();
+                button7.Hide();
+                button8.Hide();
+                button3.Show();
+                button4.Show();
+                button5.Show();
+                button6.Show();
+            }
+        }
+
         public Fight()
         {
             InitializeComponent();
-            while (result > 0 && result1 > 0)
+            ShowButton(ttt);
+            if ((result <= 0) && (result1 <= 0))
             {
-                if (ttt == false)
-                {
-                    button1.Show();
-                    button2.Show();
-                    button7.Show();
-                    button8.Show();
-                    button3.Hide();
-                    button4.Hide();
-                    button5.Hide();
-                    button6.Hide();
-
-                }
-                else
-                {
-                    button1.Hide();
-                    button2.Hide();
-                    button7.Hide();
-                    button8.Hide();
-                    button3.Show();
-                    button4.Show();
-                    button5.Show();
-                    button6.Show();
-                }
+                MessageBox.Show("khdgikhdikh");
             }
-            MessageBox.Show("khdgikhdikh");
+
 
         }
         private void label1_Click(object sender, EventArgs e)
@@ -67,6 +75,8 @@ namespace Fight_of_Mans
         private void Fight_Load(object sender, EventArgs e)
         {
             ///sf.Play();
+            
+            
      
         }
 
@@ -96,6 +106,7 @@ namespace Fight_of_Mans
             label2.Text = result.ToString();
 
             ttt = true;
+            ShowButton(ttt);
         }
 
         private void button8_Click(object sender, EventArgs e)//защита снизу второго
@@ -112,6 +123,7 @@ namespace Fight_of_Mans
             label2.Text = result.ToString();
 
             ttt = true;
+            ShowButton(ttt);
         }
 
 
@@ -147,6 +159,7 @@ namespace Fight_of_Mans
             label1.Text = result1.ToString();
 
             ttt = false;
+            ShowButton(ttt);
 
         }
 
@@ -164,6 +177,7 @@ namespace Fight_of_Mans
             label1.Text = result1.ToString();
 
             ttt = false;
+            ShowButton(ttt);
 
         }
         //////////////////////////////////////////////////////////// 1 vs 2
