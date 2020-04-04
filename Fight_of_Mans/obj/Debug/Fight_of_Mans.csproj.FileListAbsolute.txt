@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.Menu.resources
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.Properties.Resources.resources
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\bin\Debug\Fight_of_Mans.exe.config
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\bin\Debug\Fight_of_Mans.exe
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\bin\Debug\Fight_of_Mans.pdb
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.exe
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.pdb
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.Set.resources
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.Fight.resources
+C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\obj\Debug\Fight_of_Mans.Intro.resources
