@@ -14,7 +14,7 @@ namespace Fight_of_Mans
 
     public partial class Fight : Form
     {
-       // SoundPlayer sf = new SoundPlayer(@"C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\Resources\Yuka Kitamura – Main Menu [DARK SOULS III].wav");
+       SoundPlayer sf = new SoundPlayer(@"C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\Resources\Yuka Kitamura – Main Menu [DARK SOULS III].wav");
         int hp1 = 100;
         bool ttt= false;
         int hp2 = 100;
@@ -74,7 +74,7 @@ namespace Fight_of_Mans
         ////////////////////////////////////////////////////////////// 1 vs 2
         private void Fight_Load(object sender, EventArgs e)
         {
-            ///sf.Play();
+            sf.Play();
             
             
      
@@ -97,14 +97,23 @@ namespace Fight_of_Mans
             num_3 = 1;
             if (num_1 != num_3)
             {
-                result = hp2 - 30;
+                hp2 = hp2 - 30;
+                result = hp2;
             }
             if (num_1 == num_3)
             {
-                result = hp2 - 0;
-            }
-            label2.Text = result.ToString();
+                result = hp2;
 
+            }
+            label2.Text ="Здоровье второго игрока: " + result.ToString();
+            if (result <= 0 )
+            {
+                MessageBox.Show("Победа первого игрока!");
+                Menu f = new Menu();
+                this.Hide();
+                f.ShowDialog();
+                this.Close();
+            }
             ttt = true;
             ShowButton(ttt);
         }
@@ -114,13 +123,23 @@ namespace Fight_of_Mans
             num_3 = 2;
             if (num_1 != num_3)
             {
-                result = hp2 - 30;
+
+                hp2 = hp2 - 30;
+                result = hp2;
             }
             if (num_1 == num_3)
             {
-                result = hp2 - 0;
+                result = hp2;
             }
-            label2.Text = result.ToString();
+            label2.Text = "Здоровье второго игрока: " + result.ToString();
+            if (result <= 0)
+            {
+                MessageBox.Show("Победа первого игрока!");
+                Menu f = new Menu();
+                this.Hide();
+                f.ShowDialog();
+                this.Close();
+            }
 
             ttt = true;
             ShowButton(ttt);
@@ -131,57 +150,73 @@ namespace Fight_of_Mans
      
        
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e) //атака сверху второго
         {
             num_2 = 1;
   
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e) //атака снизу второго
         {
             num_2 = 2;
            
         }
 
 
-        private void button5_Click1(object sender, EventArgs e)
+        private void button5_Click1(object sender, EventArgs e) //защита сверху первого 
         {
             num_4 = 1;
             if (num_2 != num_4)
             {
-                result1 = hp1 - 30;
+                hp1 = hp1 - 30;
+                result1 = hp1;
             }
 
             if (num_2 == num_4)
             {
-                result1 = hp1 - 0;
-            }
-            label1.Text = result1.ToString();
 
+                result1 = hp1;
+            }
+            label1.Text = "Здоровье первого игрока: " + result1.ToString();
+
+            if (result1 <= 0)
+            {
+                MessageBox.Show("Победа второго игрока!");
+                Menu f = new Menu();
+                this.Hide();
+                f.ShowDialog();
+                this.Close();
+            }
             ttt = false;
             ShowButton(ttt);
 
         }
 
-        private void button6_Click1(object sender, EventArgs e)
+        private void button6_Click1(object sender, EventArgs e) //защита снизу второго игрока
         {
             num_4 = 2;
             if (num_2 != num_4)
             {
-                result1 = hp1 - 30;
+                hp1 = hp1 - 30;
+                result1 = hp1;
             }
             if (num_2 == num_4)
             {
-                result1 = hp1 - 0;
+                result1 = hp1;
             }
-            label1.Text = result1.ToString();
+            label1.Text = "Здоровье первого игрока: " + result1.ToString();
 
+            if (result1 <= 0)
+            {
+                MessageBox.Show("Победа второго игрока!");
+                Menu f = new Menu();
+                this.Hide();
+                f.ShowDialog();
+                this.Close();
+            }
             ttt = false;
             ShowButton(ttt);
 
         }
-        //////////////////////////////////////////////////////////// 1 vs 2
-        
-
     }
 }

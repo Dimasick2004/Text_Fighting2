@@ -24,3 +24,15 @@ C:\Users\Agony\Desktop\Gendalf\Модуль 2\24 занятие\Проекты\T
 C:\Users\Agony\Desktop\Gendalf\Модуль 2\24 занятие\Проекты\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.csproj.CoreCompileInputs.cache
 C:\Users\Agony\Desktop\Gendalf\Модуль 2\24 занятие\Проекты\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.exe
 C:\Users\Agony\Desktop\Gendalf\Модуль 2\24 занятие\Проекты\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.pdb
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\bin\Debug\Fight_of_Mans.exe.config
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\bin\Debug\Fight_of_Mans.exe
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\bin\Debug\Fight_of_Mans.pdb
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.Fight.resources
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.Intro.resources
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.Menu.resources
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.Properties.Resources.resources
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.exe
+C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\obj\Debug\Fight_of_Mans.pdb

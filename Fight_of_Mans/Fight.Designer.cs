@@ -42,12 +42,18 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(139, 96);
+            this.button1.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Javanese Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button1.Location = new System.Drawing.Point(12, 96);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 101);
+            this.button1.Size = new System.Drawing.Size(215, 62);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Сверху";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Атака сверху";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -56,21 +62,27 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlText;
             this.label1.Font = new System.Drawing.Font("Javanese Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label1.Location = new System.Drawing.Point(131, 18);
+            this.label1.Location = new System.Drawing.Point(12, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 47);
+            this.label1.Size = new System.Drawing.Size(396, 47);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Ваше здоровье: 100";
+            this.label1.Text = "Здоровье первого игрока: 100";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(139, 238);
+            this.button2.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Javanese Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button2.Location = new System.Drawing.Point(12, 175);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(199, 117);
+            this.button2.Size = new System.Drawing.Size(215, 62);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Снизу";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Text = "Атака снизу";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
@@ -79,71 +91,102 @@
             this.label2.BackColor = System.Drawing.SystemColors.ControlText;
             this.label2.Font = new System.Drawing.Font("Javanese Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label2.Location = new System.Drawing.Point(1207, 18);
+            this.label2.Location = new System.Drawing.Point(1499, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(265, 47);
+            this.label2.Size = new System.Drawing.Size(393, 47);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Ваше здоровье: 100";
+            this.label2.Text = "Здоровье второго игрока: 100";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1258, 96);
+            this.button3.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Javanese Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button3.Location = new System.Drawing.Point(1677, 96);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(214, 102);
+            this.button3.Size = new System.Drawing.Size(215, 62);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Сверху";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Text = "Атака сверху";
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1258, 238);
+            this.button4.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Javanese Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button4.Location = new System.Drawing.Point(1677, 179);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(213, 124);
+            this.button4.Size = new System.Drawing.Size(215, 62);
             this.button4.TabIndex = 5;
-            this.button4.Text = "Снизу";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Text = "Атака снизу";
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(139, 427);
+            this.button5.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Javanese Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button5.Location = new System.Drawing.Point(12, 96);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(199, 122);
+            this.button5.Size = new System.Drawing.Size(215, 62);
             this.button5.TabIndex = 6;
-            this.button5.Text = "блок сверху";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Text = "Защита сверху";
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click1);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(139, 569);
+            this.button6.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Javanese Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button6.Location = new System.Drawing.Point(12, 175);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(199, 130);
+            this.button6.Size = new System.Drawing.Size(215, 62);
             this.button6.TabIndex = 8;
-            this.button6.Text = "Блок снизу";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Text = "Защита снизу";
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click1);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(1254, 444);
+            this.button7.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Javanese Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button7.Location = new System.Drawing.Point(1677, 96);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(217, 125);
+            this.button7.Size = new System.Drawing.Size(215, 62);
             this.button7.TabIndex = 9;
-            this.button7.Text = "блок сверху";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Text = "Защита сверху";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(1254, 575);
+            this.button8.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Javanese Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button8.Location = new System.Drawing.Point(1677, 179);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(217, 149);
+            this.button8.Size = new System.Drawing.Size(215, 62);
             this.button8.TabIndex = 10;
-            this.button8.Text = "блок снизу";
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Text = "Защита снизу";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Fight

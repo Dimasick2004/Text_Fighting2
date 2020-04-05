@@ -13,7 +13,7 @@ namespace Fight_of_Mans
 {
     public partial class Menu : Form
     {
-        SoundPlayer sf = new SoundPlayer(@"C:\Users\User\source\repos\Fight_of_Mans\Fight_of_Mans\Resources\Dark Souls 3 – Soul of Cinder.wav");
+        SoundPlayer sf = new SoundPlayer(@"C:\Users\User\Desktop\Text_Fighting2\Fight_of_Mans\Resources\Dark Souls 3 – Soul of Cinder.wav");
         public Menu()
         {
             InitializeComponent();
@@ -21,7 +21,7 @@ namespace Fight_of_Mans
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //sf.Play();
+            sf.Play();
         }
     
         private void button3_Click_1(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace Fight_of_Mans
         private void button1_Click_1(object sender, EventArgs e)
         {
             {
-                Set f = new Set();
+                Fight f = new Fight();
                 this.Hide();
                 f.ShowDialog();
                 this.Close();
